@@ -14,7 +14,7 @@ function WebRoutes() {
         <Route path={pathRoutes.home} Component={Home}></Route>
         <Route path={pathRoutes.issues} Component={Issues}></Route>
         <Route path={pathRoutes.aboutme} Component={AboutMe}></Route>
-        <Route path={pathRoutes.contact} Component={Conclusions}></Route>
+        <Route path={pathRoutes.conclusions} Component={Conclusions}></Route>
      </Routes>
     </BrowserRouter>
   );
