@@ -1,0 +1,64 @@
+.aboutme-section1-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 100vw;
+background-image: url('../../../assets/img/woman_issues_home.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.aboutme-info {
+  color: rgb(255, 255, 255);
+ 
+}
+.container-about-me-info{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 100vh;
+  background-color: #ff69b4;
+  border-radius: 1rem;
+
+}
+.aboutme-section1-info img.aboutme-img {
+  width: 30%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.about-me-llorando {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-me-llorando img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-llorando img[src$="erika_llorando2.png"] {
+  width: 70px !important;
+}
+
+/* Estilos para pantallas de 770px o más */
+@media screen and (min-width: 770px) {
+  .aboutme-section1-info {
+    flex-direction: column;
+  }
+  .section1-info img.aboutme-img {
+    width: auto;
+    height: 300px;
+  }
+
+}

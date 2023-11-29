@@ -1,0 +1,62 @@
+- archivos
+    .css
+    .jsx 
+
+
+ <header>
+
+            <nav class="navbar navbar-default bootsnav navbar-top header-dark bg-transparent">
+                <div class="container nav-header-container">
+                    <div class="row">
+                        <div class="col-md-2 col-xs-5">
+                            <a href="#" title="Ventas en ruta" class="logo">
+                                <img
+                                    src="images/logo-ve-mobile-ventas-en-ruta.png"
+                                    data-rjs="images/logo-ve-mobile-ventas-en-ruta.png"
+                                    class="logo-dark default" 
+                                    alt="VeMobile"
+                                />
+                                <img
+                                    src="images/logo-ve-mobile-ventas-en-ruta-white.png"
+                                    data-rjs="images/logo-ve-mobile-ventas-en-ruta-whote.png"
+                                    alt="vemobile"
+                                    class="logo-light"
+                                />
+                            </a>
+                        </div>
+
+                        <div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right">
+                            <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+                                <span class="sr-only">toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
+                                <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
+
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="demo.html" id="demo">DEMO</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="index.html#formulario" id="regisro">REGISTRO</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="https://api.whatsapp.com/send?phone=5214421113874&text=Hola%20me%20interesa%20Vemobile" id="contactar-header">CONTACTAR</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="https://www.youtube.com/@vemobilemx" id="contactar-header">
+                                       
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </header>

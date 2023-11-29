@@ -1,0 +1,28 @@
+ .issues-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 55vw;
+  background-image: url('../../../assets/img/woman_issues_home.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+  .issues-section1-info {
+    padding: 2%; /* Agrega un padding del 2% alrededor del contenido */
+    text-align: center; /* Centra el texto */
+    background-color: rgb(251, 167, 224);
+  }
+  
+  .issues-section1-info h1 {
+    font-size: 2.5rem; /* Tamaño más grande para el título */
+    color:#cc0066;
+  }
+  
+  .issues-section1-info p {
+   color: #38021d;
+    margin-top: 10px; /* Espacio desde arriba */
+    padding-inline: 2%;
+    
+  }
+  

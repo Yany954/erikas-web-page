@@ -1,0 +1,55 @@
+.issues-section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgb(255, 92, 169);
+  }
+  
+  .issues-section3-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Alineación de los elementos */
+    width: 80%;
+    color: white;
+    padding: 20px; /* Espaciado interior */
+  }
+  
+  .pros,
+  .cons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pros-list,
+  .cons-list {
+    list-style-type: none; /* Quitar viñetas predeterminadas */
+    padding: 0; /* Eliminar padding predeterminado */
+  }
+  
+  .pro-item,
+  .con-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1rem;
+  }
+  
+  .pros img,
+  .cons img {
+    
+    width: 30vh;
+    height: auto;
+  }
+  

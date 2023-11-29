@@ -1,0 +1,159 @@
+.container-text{
+  display: flex;
+}
+
+.section2-text{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+b{
+  display: inline-block;
+  color: var(--primary-color-orange);
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+.text-1{
+  margin-top: 30px;
+  font-size: 1.32rem;
+  font-family: var(--monserrat-font);
+  text-align: center;
+  padding: 2%;
+}
+
+.text-2{
+  font-size: 1rem;
+  font-family: var(--monserrat-font);
+  line-height: 1.6;
+  text-align: center;
+  padding: 2%;
+}
+.section2-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.section2-info ul {
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 2.2;
+  }
+
+
+.ul-1{
+  margin-bottom: 0px;
+  padding-left: 15%;
+  padding-right: 5%;
+}
+
+.ul-2{
+  margin-top: 0px;
+  padding-left: 11.5%;
+  padding-right: 5%;
+}
+
+li{
+  font-size: 0.8rem;
+}
+
+.img-dummy{
+  height: 21px;
+  margin-right: 12px;
+
+}
+
+.color{
+  filter: invert(58%) sepia(73%) saturate(1416%) hue-rotate(359deg) brightness(100%) contrast(107%);
+}  
+
+.img-isotipo{
+  display: none;
+}  
+
+.container-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+  font-size: 0.8rem;
+  font-family: var(--monserrat-font);
+}
+
+
+@media (min-width: 768px) {
+
+
+  .container-text{
+    display: flex;
+    flex-direction: ROW;
+  }
+
+
+  .section2{
+    display: block;
+    place-content: center;
+  }
+
+  .section2-text{
+    width: 80vw;
+  }
+
+  .section2-info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .home-images {
+    flex-direction: column;
+    
+  }
+
+
+ 
+ 
+  .text-1{
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  
+  .text-2{
+    font-size: 1.2rem;
+    color:  #cc0066;
+    text-align: justify;
+  }
+  
+  .home-images {
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+  }
+  
+  .home-images img {
+    width: 200px; /* Ajusta el tamaño de las imágenes según tu preferencia */
+    margin: 0 10px; /* Espacio entre las imágenes */
+  }
+  
+  /* Estilos para la imagen del medio */
+  .home-images img:nth-child(2) {
+    width: 400px; /* Tamaño más grande para la imagen del medio */
+  }
+
+  .ul-1{
+    padding-left: 8%;
+
+  }
+  .ul-2{
+    padding-left: 2%;
+
+  }
+
+}

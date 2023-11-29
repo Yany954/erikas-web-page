@@ -1,0 +1,37 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    
+  }
+ 
+  .footer-privacy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-privacy p {
+    color: black;
+    font-family: var(--monserrat-font);
+    font-weight: 500;
+    
+  }
+  
+  .footer-privacy a {
+    color: black;
+    font-weight: 500;
+    margin: 0 5px; 
+    font-family: var(--monserrat-font);
+  }
+  
+  /* Media query para dispositivos móviles */
+  @media screen and (min-width: 768px) {
+    
+    .footer-privacy {
+        display: flex;
+        align-items: end;
+        padding: 10px;
+        margin-left: auto; 
+    }
+  }
+  

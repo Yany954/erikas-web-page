@@ -1,0 +1,59 @@
+.issues-section2 {
+    padding: 2% 4%;
+    max-width: 100%; /* Asegura que el ancho máximo sea el de la pantalla */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+  }
+  
+  .issues-section2-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    width: 100%; /* Ocupa el ancho máximo */
+  }
+  
+  .issue-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #cc0066; /* Color rosado oscuro */
+  }
+  
+  .issue-list {
+    list-style: none;
+    padding: 0;
+    width: 100%; /* Ocupa el ancho máximo */
+  }
+  
+  .issue-list li {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    text-align: justify;
+    max-width: 90%;
+  }
+  
+  .issue-list strong {
+    color: #cc0066; /* Color rosado oscuro */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%; /* Ocupa el ancho máximo */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* Altura automática */
+  }
+  
+  @media (min-width: 768px) {
+
+  .issues-section2-info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+}

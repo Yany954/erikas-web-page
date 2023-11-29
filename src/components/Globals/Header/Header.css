@@ -1,0 +1,35 @@
+.navbar{
+   
+}
+
+.navbar-logo{
+    width: 35%;
+}
+
+.navbar-item{
+    display: flex;
+    justify-content: space-between;
+    min-width: 70%;
+}
+
+#menu-appbar .navbar-link {
+    color: rgb(239, 69, 97);
+}
+
+.navbar-link{
+    text-decoration: none;
+}
+
+#navbar-responsive{
+    width: 100vw;
+}
+
+#menu-appbar{
+    color: blue;
+
+}
+
+.link-logo{
+    display: flex;
+    justify-content: center;
+}
