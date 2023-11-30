@@ -43,13 +43,28 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   
   .pros img,
   .cons img {
     
-    width: 30vh;
-    height: auto;
+    height: 75px;
+    width:  auto;
   }
-  
+  @media screen and (min-width: 700px){
+    .pros img,
+    .cons img {
+      
+      height: 150px;
+      width:  auto;
+    }
+    .pro-item,
+  .con-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+  }
+  }

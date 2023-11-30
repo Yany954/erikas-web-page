@@ -1,0 +1,12 @@
+/* Estilos para la sección de conclusión */
+.conclusion-section2 {
+    text-align: center;
+  }
+  
+  .conclusion-img {
+    max-width: 100%; /* La imagen tendrá un ancho máximo del 100% del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block; /* Para asegurar que la imagen se centre correctamente */
+    margin: 0 auto; /* Para centrar la imagen horizontalmente */
+  }
+  

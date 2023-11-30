@@ -1,28 +1,51 @@
- .issues-section1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  height: 55vw;
+.issues-section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
   background-image: url('../../../assets/img/woman_issues_home.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- }
+}
+
+.issues-section1-info {
+  padding: 2%; /* Agrega un padding del 2% alrededor del contenido */
+  text-align: center; /* Centra el texto */
+  background-color: rgb(251, 167, 224);
+  width: 90%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.issues-section1-info h1 {
+  font-size: 2.5rem; /* Tamaño más grande para el título */
+  color: #cc0066;
+}
+
+.issues-section1-info p {
+  color: #38021d;
+  margin-top: 10px; /* Espacio desde arriba */
+  padding-inline: 2%;
+}
+
+@media screen and (min-width: 700px) {
+  .issues-section1 {
+    height: auto; /* Cambia la altura a automática */
+    padding: 5% 2%; /* Ajusta el relleno */
+  }
+
   .issues-section1-info {
-    padding: 2%; /* Agrega un padding del 2% alrededor del contenido */
-    text-align: center; /* Centra el texto */
+    max-width: 800px; /* Ancho máximo para el contenido */
     background-color: rgb(251, 167, 224);
   }
-  
+
   .issues-section1-info h1 {
-    font-size: 2.5rem; /* Tamaño más grande para el título */
-    color:#cc0066;
+    font-size: 3rem; /* Tamaño más grande para el título en pantallas más grandes */
   }
-  
+
   .issues-section1-info p {
-   color: #38021d;
-    margin-top: 10px; /* Espacio desde arriba */
-    padding-inline: 2%;
-    
+    font-size: 1.2rem; /* Tamaño de fuente más grande para el párrafo */
+    padding-inline: 5%; /* Ajusta el relleno horizontal */
   }
-  
+}

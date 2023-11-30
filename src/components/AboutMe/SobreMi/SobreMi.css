@@ -1,64 +1,89 @@
-.aboutme-section1-info{
+.aboutme-section1-info {
   display: flex;
   justify-content: center;
   align-items: center;
-height: 100vw;
-background-image: url('../../../assets/img/woman_issues_home.png');
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+  height: 80vh;
   flex-direction: column;
   width: 100%;
   text-align: center;
-  
 }
 
 .aboutme-info {
   color: rgb(255, 255, 255);
- 
+  font-size: 1rem;
+  padding: 0 10px; /* Ajusta el espaciado horizontal del texto */
 }
-.container-about-me-info{
+
+.container-about-me-info {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  width: 100vh;
+  width: 90%; /* Ajusta el ancho del contenedor */
   background-color: #ff69b4;
-  border-radius: 1rem;
-
+  padding: 20px; /* Añade un relleno interno */
 }
+
 .aboutme-section1-info img.aboutme-img {
-  width: 30%;
+  width: 30%; /* Ajusta la imagen al ancho del contenedor */
   height: auto;
-  margin-right: 20px;
+  margin-bottom: 20px; /* Espacio entre imágenes */
   border-radius: 10px;
 }
 
 .about-me-llorando {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .about-me-llorando img {
-  width: 100px;
+  width: 20%; /* Ajusta el tamaño de las imágenes en pantallas pequeñas */
   height: auto;
   border-radius: 10px;
 }
 
-.about-me-llorando img[src$="erika_llorando2.png"] {
-  width: 70px !important;
+/* Media query para pantallas de al menos 700px de ancho */
+@media screen and (min-width: 700px) and (max-width: 1024px)  {
+  
+  .aboutme-info {
+    max-width: 700px; /* Limita el ancho del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
+  }
+
+  .aboutme-section1-info img.aboutme-img {
+    width: 45%; /* Ajusta el tamaño de la imagen en pantallas más grandes */
+    max-width: none; /* Elimina el ancho máximo */
+  }
+
+  .container-about-me-info {
+    width: 100%; /* Ajusta el ancho del contenedor en pantallas más grandes */
+  }
+  .aboutme-info{
+    font-size: 1.4rem;
+  }
 }
 
-/* Estilos para pantallas de 770px o más */
-@media screen and (min-width: 770px) {
-  .aboutme-section1-info {
-    flex-direction: column;
-  }
-  .section1-info img.aboutme-img {
-    width: auto;
-    height: 300px;
+/* Media query para pantallas de al menos 700px de ancho */
+@media screen and (min-width: 1020px) {
+  .aboutme-info {
+    max-width: 90%; /* Limita el ancho del texto */
+    margin: 0 auto; /* Centra el texto horizontalmente */
   }
 
+
+  .aboutme-section1-info img.aboutme-img {
+    width: 50%; /* Ajusta el tamaño de la imagen en pantallas más grandes */
+    max-width: none; /* Elimina el ancho máximo */
+  }
+
+  
+  .container-about-me-info {
+    width: 100%; /* Ajusta el ancho del contenedor en pantallas más grandes */
+  }
+  .aboutme-info{
+    font-size: 1.8rem;
+  }
 }

@@ -2,7 +2,8 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 import Header from "../components/Globals/Header/Header";
 import Footer from "../components/Globals/Footer/Footer";
-import Section1 from "../components/Conclutions/Section1";
+import Section1 from "../components/Conclutions/Section1/Section1";
+import Section2 from "../components/Conclutions/Section2/Section2";
 
 
 function Conclusions() {
@@ -16,6 +17,7 @@ function Conclusions() {
         <div>
             <Header onPageSelect={onPageSelectHandler} selectedPage={selectedPage} />
       <Section1 />
+      <Section2 />
       <Footer />
 
     </div>
