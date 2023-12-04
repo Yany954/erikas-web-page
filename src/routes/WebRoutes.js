@@ -5,6 +5,7 @@ import { pathRoutes } from "./PathRoutes";
 import Conclusions from "../pages/Conclusions";
 import Issues from "../pages/Issues";
 import AboutMe from "../pages/AboutMe";
+import ProsCons from "../pages/ProsCons";
 
 
 function WebRoutes() {
@@ -13,6 +14,7 @@ function WebRoutes() {
       <Routes>
         <Route path={pathRoutes.home} Component={Home}></Route>
         <Route path={pathRoutes.issues} Component={Issues}></Route>
+        <Route path={pathRoutes.proscons} Component={ProsCons}></Route>
         <Route path={pathRoutes.aboutme} Component={AboutMe}></Route>
         <Route path={pathRoutes.conclusions} Component={Conclusions}></Route>
      </Routes>

@@ -3,4 +3,5 @@ export const pathRoutes = {
   conclusions: '/conclusions',
   aboutme: '/aboutme',
   issues: '/issues',
+  proscons: '/proscons',
 };

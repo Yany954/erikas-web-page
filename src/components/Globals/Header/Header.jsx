@@ -25,7 +25,7 @@ const theme = createTheme({
   },
 });
 
-const pages = [["Home", pathRoutes.home], ["About me", pathRoutes.aboutme], ["What is woman issues?", pathRoutes.issues], ["Conclusion", pathRoutes.conclusions]];
+const pages = [["Home", pathRoutes.home], ["About me", pathRoutes.aboutme], ["What is woman issues?", pathRoutes.issues],["Pros & Cons", pathRoutes.proscons], ["Conclusion", pathRoutes.conclusions]];
 
 function Header({ onPageSelect, selectedPage}) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
